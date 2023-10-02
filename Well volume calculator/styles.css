@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border-style: hidden;
+    background-color:darkcyan;
+}
+
+.hero{
+    padding: 4% 10%;
+    height: 80px;
+    font-family: 'Muli', sans-serif;
+}
+
+input[type=text], select {
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+input[type=button],select{
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border:1px solid black;
+}
+  
+.form-container{
+    padding: 4% 10%;
+    height: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}

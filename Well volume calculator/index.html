@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well Volume Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <h1>Well Volume Calculator</h1>
+        <h2>Are you wondering how to calculate your well volume? <br>If so, this well volume calculator will answer all your questions about how to calculate the well water volume.<br></h2>
+    </div>
+
+    <div class="form-container">
+        <form  id="form_id" action="">
+                <label > Well diameter (in meters):</label>
+                <input id="well-diameter" type="text">
+                <label for="well-depth">Total well Depth (in meters) :</label>
+                <input id="well-depth"type="text">
+                <label for="static-depth">Static water depth (in meters) :</label>
+                <input id="static-depth" type="text">
+                <label for="result" >Well Volume (in m3) :</label>
+                <input id="result" type="text">
+                <input onclick="calcWellVolume()" type ="button" value="Result">
+                <input onclick="clearScreen()" type ="button" value="Reset">
+            </form>
+    </div>
+</body>
+</html>
